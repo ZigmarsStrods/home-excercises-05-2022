@@ -8,16 +8,17 @@ public class FizzBuzz {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         for (int i = 1; i <= num; i++) {
-            StringBuilder outputStr = new StringBuilder(" ");
+            StringBuilder outputStr = new StringBuilder("");
             if (i % 3 == 0) {
                 outputStr.append("Fizz");
             }
             if (i % 5 == 0) {
                 outputStr.append("Buzz");
             }
-            if (outputStr.toString().equals(" ")) {
+            if (outputStr.toString().equals("")) {
                 outputStr.append(i);
             }
+            outputStr.append(" ");
             if (i % 20 == 0) {
                 outputStr.append("\n");
             }

@@ -7,7 +7,7 @@ public class PhoneKeyPad {
         System.out.println("Please enter text for the number conversion: ");
         Scanner input = new Scanner(System.in);
         String str = input.next().toLowerCase();
-        StringBuilder output = new StringBuilder("");
+        StringBuilder output = new StringBuilder();
         /* WITHOUT LOOP:
         String output = str.replaceAll("[abc]", "2")
                 .replaceAll("[def]", "3")

@@ -9,14 +9,14 @@ public class TenBillion {
         Scanner in = new Scanner(System.in);
         System.out.print("Input an integer number less than ten billion: ");
 
-        long n = in.nextLong();
+        Long n = in.nextLong();
 
 
-        if (true) { //no point in checking this as if read n will be always long, not possible to read anything except long
+        if (n instanceof Long) { //no point in checking this as if read, n will be always long, not possible to read anything except long
             if (n < 0) {
                 n *= -1;
             }
-            if (n >= 10000000000l) {
+            if (n >= 10000000000L) {
                 System.out.println("Number is greater or equals 10,000,000,000!");
             } else {
                 int digits = 0;
@@ -38,7 +38,7 @@ public class TenBillion {
                     digits = 8;
                 } else if (n < 1000000000) {
                     digits = 9;
-                } else if (n < 10000000000l) {
+                } else if (n < 10000000000L) {
                     digits = 10;
                 }
                 System.out.println("Number of digits in the number: " + digits);

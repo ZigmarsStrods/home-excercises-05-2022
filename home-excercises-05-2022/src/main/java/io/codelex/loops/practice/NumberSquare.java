@@ -18,7 +18,7 @@ public class NumberSquare {
                 System.out.printf("%4d", k);
             }
             min++;
-            System.out.println("");
+            System.out.println();
         }
     }
 }

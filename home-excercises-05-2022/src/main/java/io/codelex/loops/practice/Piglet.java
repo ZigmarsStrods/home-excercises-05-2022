@@ -11,7 +11,7 @@ public class Piglet {
         int diceRoll;
         int sum = 0;
         String rollAgain = "y";
-        while (rollAgain.toLowerCase().equals("y") || rollAgain.toLowerCase().equals("yes")) {
+        while (rollAgain.equalsIgnoreCase("y") || rollAgain.equalsIgnoreCase("yes")) {
             diceRoll = diceGen.nextInt(6) + 1;
             System.out.println("You have rolled a " + diceRoll + "!");
             if (diceRoll == 1) {
