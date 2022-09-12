@@ -1,5 +1,6 @@
 package io.codelex.loops.practice;
 
+
 import java.util.*;
 
 import static org.apache.commons.lang3.RandomUtils.nextInt;
@@ -34,10 +35,8 @@ public class RandomNumberPositions {
 
     private static Integer[] randomIntegers(int n) {
         List<Integer> list = new ArrayList<>(n);
-        Random generator = new Random();
         for (int i = 0; i < n; i++) {
-            list.add(nextInt(0, 99))
-            //list.add(generator.nextInt(0, 99));
+            list.add(nextInt(0, 99));
         }
         return list.toArray(new Integer[0]);
     }
