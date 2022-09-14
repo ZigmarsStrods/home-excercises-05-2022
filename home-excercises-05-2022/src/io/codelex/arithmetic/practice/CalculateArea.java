@@ -53,6 +53,19 @@ public class CalculateArea {
         return userChoice;
     }
 
+    public static BigDecimal getPositiveValue(Scanner input) {
+        BigDecimal num = ZERO;
+        while (input.hasNextLine()) {
+            num = input.nextBigDecimal();
+            if (num.intValue() < 0) {
+                System.out.println("You entered negative value. Please enter positive value!");
+            } else {
+                break;
+            }
+        }
+        return num;
+    }
+
     public static void calculateCircleArea() {
 
         BigDecimal radius = ZERO;
@@ -60,21 +73,14 @@ public class CalculateArea {
         // Get input from user
         Scanner keyboard = new Scanner(System.in);
         System.out.print("What is the circle's radius? ");
-        //todo
-        while (keyboard.hasNextLine()) {
-            radius = keyboard.nextBigDecimal();
+        radius = getPositiveValue(keyboard);
 
-            if (radius.intValue() < 0) {
-                System.out.println("You entered negative value. Please enter positive value!");
-            } else {
+        // Display output
+        System.out.println("The circle's area is " + Geometry.areaOfCircle(radius));
 
-                // Display output
-                System.out.println("The circle's area is "
-                        + Geometry.areaOfCircle(radius));
-                break;
-            }
-        }
+
     }
+
 
     public static void calculateRectangleArea() {
         BigDecimal length = ZERO;
@@ -86,28 +92,15 @@ public class CalculateArea {
         // Get length
         System.out.print("Enter length? ");
         //todo
-        while (keyboard.hasNextLine()) {
-            length = keyboard.nextBigDecimal();
-            if (length.intValue() < 0) {
-                System.out.println("You entered negative value. Please enter positive value!");
-            } else {
-                break;
-            }
-        }
+        length = getPositiveValue(keyboard);
+
         // Get width
         System.out.print("Enter width? ");
-        while (keyboard.hasNextLine()) {
-            //todo
-            width = keyboard.nextBigDecimal();
-            if (width.intValue() < 0) {
-                System.out.println("You entered negative value. Please enter positive value!");
-            } else {
-                // Display output
-                System.out.println("The rectangle's area is "
-                        + Geometry.areaOfRectangle(length, width));
-                break;
-            }
-        }
+        width = getPositiveValue(keyboard);
+        // Display output
+        System.out.println("The rectangle's area is " + Geometry.areaOfRectangle(length, width));
+
+
     }
 
     public static void calculateTriangleArea() {
@@ -119,29 +112,13 @@ public class CalculateArea {
 
         // Get the base
         System.out.print("Enter length of the triangle's base? ");
-        //todo
-        while (keyboard.hasNextLine()) {
-            base = keyboard.nextBigDecimal();
-            if (base.intValue() < 0) {
-                System.out.println("You entered negative value. Please enter positive value!");
-            } else {
-                break;
-            }
-        }
+        base = getPositiveValue(keyboard);
         // Get the height
         System.out.print("Enter triangle's height? ");
-        //todo
-        while (keyboard.hasNextLine()) {
-            //todo
-            height = keyboard.nextBigDecimal();
-            if (height.intValue() < 0) {
-                System.out.println("You entered negative value. Please enter positive value!");
-            } else {
-                // Display the triangle's area.
-                System.out.println("The triangle's area is "
-                        + Geometry.areaOfTriangle(base, height));
-                break;
-            }
-        }
+        height = getPositiveValue(keyboard);
+        // Display the triangle's area.
+        System.out.println("The triangle's area is " + Geometry.areaOfTriangle(base, height));
+
+
     }
 }

@@ -9,7 +9,7 @@ public class SumAverageRunningInt {
         int lowerBound = 1;
         int upperBound = 2;
 
-        for (int number = lowerBound; number <= upperBound; ++number) {
+        for (int number = lowerBound; number <= upperBound; number++) {
             sum += number;
         }
         average = ((double) sum) / (upperBound - lowerBound + 1);
