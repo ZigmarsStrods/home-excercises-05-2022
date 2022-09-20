@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise4;
+package io.codelex.classesandobjects.practice.exercise04;
 
 import java.util.LinkedList;
 import java.util.List;

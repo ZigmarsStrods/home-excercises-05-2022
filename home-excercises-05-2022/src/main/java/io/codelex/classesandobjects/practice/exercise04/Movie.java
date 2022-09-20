@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise4;
+package io.codelex.classesandobjects.practice.exercise04;
 
 public class Movie {
     private String title;

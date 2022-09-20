@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise6;
+package io.codelex.classesandobjects.practice.exercise06;
 
 public class EnergyDrinksApp {
 

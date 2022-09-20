@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise2;
+package io.codelex.classesandobjects.practice.exercise02;
 
 public class LitersPerKilometer {
     public static void main(String[] args) {

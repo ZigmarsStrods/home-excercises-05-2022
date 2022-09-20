@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise9;
+package io.codelex.classesandobjects.practice.exercise09;
 
 public class Point {
 

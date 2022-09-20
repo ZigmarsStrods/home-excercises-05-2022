@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise3;
+package io.codelex.classesandobjects.practice.exercise03;
 
 public class Car2 {
     public static void main(String[] args) {

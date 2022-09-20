@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise1;
+package io.codelex.classesandobjects.practice.exercise01;
 
 public class Product {
 

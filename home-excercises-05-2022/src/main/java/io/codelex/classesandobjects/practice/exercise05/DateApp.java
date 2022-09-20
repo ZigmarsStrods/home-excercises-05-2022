@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise5;
+package io.codelex.classesandobjects.practice.exercise05;
 
 public class DateApp {
     public static void main(String[] args) {

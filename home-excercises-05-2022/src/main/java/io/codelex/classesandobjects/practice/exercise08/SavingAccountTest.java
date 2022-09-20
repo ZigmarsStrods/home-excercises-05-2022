@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.exercise8;
+package io.codelex.classesandobjects.practice.exercise08;
 
 import java.math.BigDecimal;
 import java.util.Locale;
