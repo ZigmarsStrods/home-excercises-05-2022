@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.movie;
+package io.codelex.classesandobjects.practice.exercise4;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class MovieApp {
         myMovies.add(new Movie("Glass", "Buena Vista International", "PG"));
         myMovies.add(new Movie("Spider-Man: Into the Spider-Verse", "Columbia Pictures", "PG"));
         List<Movie> pgMovies = getPG(myMovies);
-        System.out.println(pgMovies.toString());
+        System.out.println(myMovies.toString());
     }
 
 

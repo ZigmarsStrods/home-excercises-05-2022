@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.car2;
+package io.codelex.classesandobjects.practice.exercise3;
 
 public class FuelGauge {
 

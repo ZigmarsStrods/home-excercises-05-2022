@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.dog;
+package io.codelex.classesandobjects.practice.exercise7;
 
 public class Dog {
 

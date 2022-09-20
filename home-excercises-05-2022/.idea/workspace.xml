@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662484537501</updated>
       <workItem from="1663592254495" duration="7874000" />
-      <workItem from="1663653989314" duration="27148000" />
+      <workItem from="1663653989314" duration="50319000" />
     </task>
     <servers />
   </component>
@@ -100,5 +100,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

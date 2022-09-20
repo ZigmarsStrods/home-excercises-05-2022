@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.car;
+package io.codelex.classesandobjects.practice.exercise2;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package io.codelex.classesandobjects.practice.product;
+package io.codelex.classesandobjects.practice.exercise1;
 
 import java.util.Locale;
 import java.util.Scanner;
