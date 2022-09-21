@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2691e193-dfea-4bbf-9987-bff5f5c0b7ac" name="Changes" comment="" />
+    <list default="true" id="2691e193-dfea-4bbf-9987-bff5f5c0b7ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Hangman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/TicTacToe.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,15 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main/java/io/codelex&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main/java/io/codelex",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\src\main\java\io\codelex" />
@@ -83,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1662484537501</updated>
       <workItem from="1663592254495" duration="7874000" />
-      <workItem from="1663653989314" duration="50624000" />
+      <workItem from="1663653989314" duration="53307000" />
+      <workItem from="1663708839384" duration="1503000" />
     </task>
     <servers />
   </component>

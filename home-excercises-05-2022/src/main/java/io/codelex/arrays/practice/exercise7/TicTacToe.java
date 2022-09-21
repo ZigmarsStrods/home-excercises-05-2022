@@ -1,4 +1,4 @@
-package io.codelex.arrays.practice;
+package io.codelex.arrays.practice.exercise7;
 
 import java.util.Scanner;
 
@@ -38,32 +38,7 @@ public class TicTacToe {
             } else {
                 turn = 'X';
             }
-            if (board[0][0] != ' ' && board[0][0] == board[0][1] && board[0][1] == board[0][2]) {
-                winner = board[0][0];
-            }
-            if (board[1][0] != ' ' && board[1][0] == board[1][1] && board[1][1] == board[1][2]) {
-                winner = board[1][0];
-            }
-            if (board[2][0] != ' ' && board[2][0] == board[2][1] && board[2][1] == board[2][2]) {
-                winner = board[2][0];
-
-            }
-            if (board[0][0] != ' ' && board[0][0] == board[1][0] && board[1][0] == board[2][0]) {
-                winner = board[0][0];
-
-            }
-            if (board[0][1] != ' ' && board[0][1] == board[1][1] && board[1][1] == board[2][1]) {
-                winner = board[0][1];
-            }
-            if (board[0][2] != ' ' && board[0][2] == board[1][2] && board[1][2] == board[2][2]) {
-                winner = board[0][2];
-            }
-            if (board[0][0] != ' ' && board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
-                winner = board[0][0];
-            }
-            if (board[0][2] != ' ' && board[0][2] == board[1][1] && board[1][1] == board[2][0]) {
-                winner = board[0][2];
-            }
+            winner = getWinner();
         }
         displayBoard();
         System.out.println(winner + " is the winner!");
@@ -83,5 +58,35 @@ public class TicTacToe {
         System.out.println("    --+-+--");
         System.out.println("  2  " + board[2][0] + "|" + board[2][1] + "|" + board[2][2]);
         System.out.println("     0 1 2 \n");
+    }
+
+    public static char getWinner() {
+        if (board[0][0] != ' ' && board[0][0] == board[0][1] && board[0][1] == board[0][2]) {
+            return board[0][0];
+        }
+        if (board[1][0] != ' ' && board[1][0] == board[1][1] && board[1][1] == board[1][2]) {
+            return board[1][0];
+        }
+        if (board[2][0] != ' ' && board[2][0] == board[2][1] && board[2][1] == board[2][2]) {
+            return board[2][0];
+
+        }
+        if (board[0][0] != ' ' && board[0][0] == board[1][0] && board[1][0] == board[2][0]) {
+            return board[0][0];
+
+        }
+        if (board[0][1] != ' ' && board[0][1] == board[1][1] && board[1][1] == board[2][1]) {
+            return board[0][1];
+        }
+        if (board[0][2] != ' ' && board[0][2] == board[1][2] && board[1][2] == board[2][2]) {
+            return board[0][2];
+        }
+        if (board[0][0] != ' ' && board[0][0] == board[1][1] && board[1][1] == board[2][2]) {
+            return board[0][0];
+        }
+        if (board[0][2] != ' ' && board[0][2] == board[1][1] && board[1][1] == board[2][0]) {
+            return board[0][2];
+        }
+        return ' ';
     }
 }

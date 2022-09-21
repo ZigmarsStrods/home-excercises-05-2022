@@ -1,4 +1,4 @@
-package io.codelex.arrays.practice;
+package io.codelex.arrays.practice.exercise4;
 
 public class Exercise4 {
 

@@ -1,4 +1,4 @@
-package io.codelex.arrays.practice;
+package io.codelex.arrays.practice.exercise8;
 
 import java.util.Arrays;
 import java.util.List;
