@@ -10,7 +10,7 @@ public class EnergyDrinks {
 
     }
 
-    public static double calculatePreferCitris(int numberSurveyed) {
+    public static double calculatePreferCitrus(int numberSurveyed) {
         return Math.floor(calculateEnergyDrinkers(numberSurveyed) * PREFER_CITRUS_DRINKS);
 
     }

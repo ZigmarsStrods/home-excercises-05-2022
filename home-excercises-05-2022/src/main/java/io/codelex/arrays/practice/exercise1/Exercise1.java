@@ -33,5 +33,11 @@ public class Exercise1 {
         Arrays.sort(myArray2); //Sort array
         System.out.println("Sorted string array : " + Arrays.toString(myArray2));
 
+        int one = 2;
+
+        for (int i=0;i<18;i++) {
+            System.out.println(one);
+            one+=Math.pow(2,i);
+        }
     }
 }

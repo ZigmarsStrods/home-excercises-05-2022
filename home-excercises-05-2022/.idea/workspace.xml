@@ -6,14 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2691e193-dfea-4bbf-9987-bff5f5c0b7ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Exercise6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/Hangman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/TicTacToe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/exercise1/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/exercise1/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinksApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinksApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2EP5mFTWifICe4QJyvqku5NlrID" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main/java/io/codelex",
+    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/From_codelex_github/Tieto",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true"
   }
@@ -95,7 +94,9 @@
       <updated>1662484537501</updated>
       <workItem from="1663592254495" duration="7874000" />
       <workItem from="1663653989314" duration="53307000" />
-      <workItem from="1663708839384" duration="1503000" />
+      <workItem from="1663708839384" duration="2058000" />
+      <workItem from="1663749630499" duration="3455000" />
+      <workItem from="1663774177402" duration="15092000" />
     </task>
     <servers />
   </component>

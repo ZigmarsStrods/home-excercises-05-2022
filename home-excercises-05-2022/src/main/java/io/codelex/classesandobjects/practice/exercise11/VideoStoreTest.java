@@ -7,7 +7,7 @@ public class VideoStoreTest {
 
     public static void main(String[] args) {
         final Scanner keyboard = new Scanner(System.in);
-
+        VideoStore myVideoStore = new VideoStore();
         while (true) {
             System.out.println("Choose the operation you want to perform ");
             System.out.println("Choose 0 for EXIT");
@@ -21,13 +21,13 @@ public class VideoStoreTest {
                 case "0":
                     System.exit(0);
                 case "1":
-                    fillVideoStore(keyboard);
+                    fillVideoStore(keyboard, myVideoStore);
                     break;
                 case "2":
-                    rentVideo(keyboard);
+                    rentVideo(keyboard, myVideoStore);
                     break;
                 case "3":
-                    returnVideo(keyboard);
+                    returnVideo(keyboard, myVideoStore);
                     break;
                 default:
                     break;
@@ -36,36 +36,36 @@ public class VideoStoreTest {
         }
     }
 
-    private static void fillVideoStore(Scanner scanner) {
+    private static void fillVideoStore(Scanner scanner, VideoStore myVS) {
         for (int i = 0; i < COUNT_OF_MOVIES; i++) {
             System.out.println("Enter movie name: ");
             String movieName = scanner.nextLine();
-            VideoStore.addToInventory(movieName);
+            myVS.addToInventory(movieName);
             System.out.println("Enter rating 1");
             double rating = Double.parseDouble(scanner.nextLine());
-            VideoStore.enterRating(movieName, rating);
+            myVS.enterRating(movieName, rating);
             System.out.println("Enter rating 2");
             rating = Double.parseDouble(scanner.nextLine());
-            VideoStore.enterRating(movieName, rating);
+            myVS.enterRating(movieName, rating);
             System.out.println("Enter rating 3");
             rating = Double.parseDouble(scanner.nextLine());
-            VideoStore.enterRating(movieName, rating);
+            myVS.enterRating(movieName, rating);
         }
     }
 
-    private static void rentVideo(Scanner scanner) {
-        VideoStore.checkoutVideo("The Matrix");
-        VideoStore.checkoutVideo("Godfather II");
-        VideoStore.listInventory();
-        VideoStore.checkoutVideo("Star Wars Episode IV: A New Hope");
+    private static void rentVideo(Scanner scanner, VideoStore myVS) {
+        myVS.checkoutVideo("The Matrix");
+        myVS.checkoutVideo("Godfather II");
+        myVS.listInventory();
+        myVS.checkoutVideo("Star Wars Episode IV: A New Hope");
 
     }
 
-    private static void returnVideo(Scanner scanner) {
-        VideoStore.returnVideo("The Matrix");
-        VideoStore.returnVideo("Godfather II");
-        VideoStore.listInventory();
-        VideoStore.returnVideo("Star Wars Episode IV: A New Hope");
+    private static void returnVideo(Scanner scanner, VideoStore myVS) {
+        myVS.returnVideo("The Matrix");
+        myVS.returnVideo("Godfather II");
+        myVS.listInventory();
+        myVS.returnVideo("Star Wars Episode IV: A New Hope");
 
     }
 }

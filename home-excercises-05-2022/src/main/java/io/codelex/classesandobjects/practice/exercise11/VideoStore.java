@@ -5,28 +5,28 @@ import java.util.List;
 
 public class VideoStore {
 
-    private static List<Video> inventory = new LinkedList<>();
+    private List<Video> inventory = new LinkedList<>();
 
-    public static void addToInventory(String title) {
+    public void addToInventory(String title) {
         Video newVideo = new Video(title);
         inventory.add(newVideo);
     }
 
-    public static void checkoutVideo(String title) {
+    public void checkoutVideo(String title) {
         inventory.get(lookupIndex(title)).checkout();
     }
 
-    public static void returnVideo(String title) {
+    public void returnVideo(String title) {
         inventory.get(lookupIndex(title)).returnVideo();
     }
 
-    public static void enterRating(String title, double rating) {
+    public void enterRating(String title, double rating) {
         inventory.get(lookupIndex(title)).giveRating(rating);
 
 
     }
 
-    public static void listInventory() {
+    public void listInventory() {
         System.out.println("Store has following videos:");
         for (int i = 0; i < inventory.size(); i++) {
             System.out.print(i + "\t");
@@ -34,7 +34,7 @@ public class VideoStore {
         }
     }
 
-    public static void isRented(String title) {
+    public void isRented(String title) {
         if (inventory.get(lookupIndex(title)).isRentedOut()) {
             System.out.println("Video is rented out!");
         } else {
@@ -44,7 +44,7 @@ public class VideoStore {
         System.out.println("Could not find the video!");
     }
 
-    public static void displayPercentageUsersLiked(String title) {
+    public void displayPercentageUsersLiked(String title) {
 
         Video currentVideo = inventory.get(lookupIndex(title));
         if (currentVideo.getRatingTimes() > 0) {
@@ -54,7 +54,7 @@ public class VideoStore {
         }
     }
 
-    public static int lookupIndex(String title) {
+    private int lookupIndex(String title) {
         for (Video lookupVideo : inventory) {
             if (lookupVideo.getTitle().equals(title)) {
                 return inventory.indexOf(lookupVideo);
