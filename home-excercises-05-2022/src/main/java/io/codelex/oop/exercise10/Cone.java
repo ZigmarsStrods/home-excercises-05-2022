@@ -12,16 +12,21 @@ public class Cone extends ThreeDShape {
 
     @Override
     public double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        return 2 * piMultilyByRadius();
     }
 
     @Override
     public double calculateArea() {
-        return Math.PI * radius * (radius + Math.sqrt(height * height + radius * radius));
+        return piMultilyByRadius() * (radius + Math.sqrt(height * height + radius * radius));
     }
 
     @Override
     public double calculateVolume() {
-        return (Math.PI * radius * radius * height) / 3;
+        return (piMultilyByRadius() * radius * height) / 3;
     }
+
+    private double piMultilyByRadius() {
+        return Math.PI * radius;
+    }
+
 }
