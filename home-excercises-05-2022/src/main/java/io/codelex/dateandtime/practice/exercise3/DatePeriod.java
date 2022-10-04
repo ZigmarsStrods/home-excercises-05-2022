@@ -1,7 +1,6 @@
 package io.codelex.dateandtime.practice.exercise3;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class DatePeriod {
 
