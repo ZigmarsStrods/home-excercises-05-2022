@@ -19,8 +19,6 @@ public class Exercise4 {
             }
         }
         System.out.print("Unique name list contains:");
-        for (String element : nameSet) {
-            System.out.print(" " + element);
-        }
+        nameSet.forEach(element -> System.out.print(" " + element));
     }
 }
