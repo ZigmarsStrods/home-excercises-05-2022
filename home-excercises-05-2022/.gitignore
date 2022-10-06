@@ -1,5 +1,7 @@
 ### IntelliJ IDEA ###
 .idea/
+target/
+src/main/resources/comparing
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
