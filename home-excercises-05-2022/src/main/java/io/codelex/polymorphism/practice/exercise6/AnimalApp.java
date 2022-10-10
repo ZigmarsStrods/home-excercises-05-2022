@@ -2,7 +2,6 @@ package io.codelex.polymorphism.practice.exercise6;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -10,9 +9,9 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 
-public class AnimalTest {
+public class AnimalApp {
 
-    final static Scanner input = new Scanner(System.in).useLocale(Locale.ROOT);
+    private static final Scanner input = new Scanner(System.in).useLocale(Locale.ROOT);
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         List<Animal> myAnimalList = new ArrayList<>();
@@ -49,7 +48,7 @@ public class AnimalTest {
 
         }
         String forPrint = myAnimalList.stream()
-                .map(Object::toString)
+                .map(Animal::toString)
                 .collect(Collectors.joining(", "))
                 .toString();
         System.out.println(forPrint);

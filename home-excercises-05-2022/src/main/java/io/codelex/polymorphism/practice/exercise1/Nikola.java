@@ -4,12 +4,14 @@ public class Nikola implements Car {
 
     private Integer currentSpeed = 0;
 
+    private Integer speedChange = 0;
+
     public void speedUp() {
-        currentSpeed += 0;
+        currentSpeed += speedChange;
     }
 
     public void slowDown() {
-        currentSpeed -= 0;
+        currentSpeed -= speedChange;
     }
 
     public String showCurrentSpeed() {

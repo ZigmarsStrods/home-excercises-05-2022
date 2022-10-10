@@ -16,7 +16,11 @@ import java.util.List;
  */
 public class DragRace {
 
+    private static final int speedUpTimes = 10;
+    private static final int nitroTimes = 3;
+
     public static void main(String[] args) {
+
 
         List<Car> myCarList = new ArrayList<>();
         myCarList.add(new Audi());
@@ -26,10 +30,10 @@ public class DragRace {
         myCarList.add(new Pobeda());
         myCarList.add(new Tesla());
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= speedUpTimes; i++) {
             myCarList.stream()
                     .forEach(Car::speedUp);
-            if (i % 3 == 0) {
+            if (i % nitroTimes == 0) {
                 myCarList.stream()
                         .filter(s -> s instanceof NitrousOxideEngine)
                         .forEach(s -> ((NitrousOxideEngine) s).useNitrousOxideEngine());
