@@ -3,12 +3,13 @@ package io.codelex.polymorphism.practice.exercise1;
 public class Bmw implements Car, NitrousOxideEngine {
     private Integer currentSpeed = 0;
 
+    private Integer speedChange = 12;
     public void speedUp() {
-        currentSpeed += 12;
+        currentSpeed += speedChange;
     }
 
     public void slowDown() {
-        currentSpeed -= 12;
+        currentSpeed -= speedChange;
     }
 
     public String showCurrentSpeed() {

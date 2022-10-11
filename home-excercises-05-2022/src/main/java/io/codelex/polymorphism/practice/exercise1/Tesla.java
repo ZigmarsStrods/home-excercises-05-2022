@@ -3,12 +3,13 @@ package io.codelex.polymorphism.practice.exercise1;
 public class Tesla implements Car {
     private Integer currentSpeed = 0;
 
+    private Integer speedChange = 20;
     public void speedUp() {
-        currentSpeed += 20;
+        currentSpeed += speedChange;
     }
 
     public void slowDown() {
-        currentSpeed -= 20;
+        currentSpeed -= speedChange;
     }
 
     public String showCurrentSpeed() {
