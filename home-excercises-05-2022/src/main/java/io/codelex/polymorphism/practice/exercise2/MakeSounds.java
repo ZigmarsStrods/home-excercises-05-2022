@@ -14,7 +14,7 @@ public class MakeSounds {
         mySoundingObjectList.add(new Firework());
         mySoundingObjectList.add(new Radio());
 
-        mySoundingObjectList.stream().forEach(Sound::playSound);
+        mySoundingObjectList.forEach(Sound::playSound);
         
     }
 }

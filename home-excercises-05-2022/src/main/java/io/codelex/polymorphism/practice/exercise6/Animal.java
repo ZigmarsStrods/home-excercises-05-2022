@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public abstract class Animal {
 
-    private String animalType;
+    private final String animalType;
     private String animalName;
     private double animalWeight;
 

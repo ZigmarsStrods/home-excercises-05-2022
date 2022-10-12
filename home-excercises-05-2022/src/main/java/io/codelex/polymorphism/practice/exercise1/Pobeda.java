@@ -4,7 +4,7 @@ public class Pobeda implements Car {
 
     private Integer currentSpeed = 0;
 
-    private Integer speedChange = 3;
+    private final Integer speedChange = 3;
 
     public void speedUp() {
         currentSpeed += speedChange;

@@ -4,7 +4,7 @@ public class Nikola implements Car {
 
     private Integer currentSpeed = 0;
 
-    private Integer speedChange = 0;
+    private final Integer speedChange = 0;
 
     public void speedUp() {
         currentSpeed += speedChange;

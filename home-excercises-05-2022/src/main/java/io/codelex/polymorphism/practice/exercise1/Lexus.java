@@ -3,7 +3,7 @@ package io.codelex.polymorphism.practice.exercise1;
 public class Lexus implements Car, NitrousOxideEngine {
     private Integer currentSpeed = 0;
 
-    private Integer speedChange = 8;
+    private final Integer speedChange = 8;
 
     public void speedUp() {
         currentSpeed += speedChange;

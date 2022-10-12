@@ -18,14 +18,14 @@ public class HashMapExercise1 {
 
         //TODO: Check if myMap contains key:
         int key = 6;
-        if (myMap.keySet().contains(key)) {
+        if (myMap.containsKey(key)) {
             System.out.println("Contains! :)");
         } else {
             System.out.println("Does not contain key " + key + ". :(");
         }
 
         //TODO: Check if myMap contains value "White"
-        if (myMap.values().contains("White")) {
+        if (myMap.containsValue("White")) {
             System.out.println("Contains! :)");
         } else {
             System.out.println("Does not contain. :(");

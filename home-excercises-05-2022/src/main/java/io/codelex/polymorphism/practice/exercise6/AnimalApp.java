@@ -24,33 +24,32 @@ public class AnimalApp {
             String animalName = input.next();
             Double animalWeight = input.nextDouble();
             String animalLivingRegion = input.next();
-            Class animalClass = Class.forName("io.codelex.polymorphism.practice.exercise6." + animalType);
+            Class<?> animalClass = Class.forName("io.codelex.polymorphism.practice.exercise6." + animalType);
             Animal enteredAnimal;
             if (animalType.equals("Cat")) {
                 String catBreed = input.next();
-                Constructor catConstructor = animalClass.getConstructor(String.class, String.class, Double.class, String.class, String.class);
+                Constructor<?> catConstructor = animalClass.getConstructor(String.class, String.class, Double.class, String.class, String.class);
                 enteredAnimal = (Cat) catConstructor.newInstance(animalType, animalName, animalWeight, animalLivingRegion, catBreed);
             } else {
-                Constructor animalConstructor = animalClass.getConstructor(String.class, String.class, Double.class, String.class);
+                Constructor<?> animalConstructor = animalClass.getConstructor(String.class, String.class, Double.class, String.class);
                 enteredAnimal = (Animal) animalConstructor.newInstance(animalType, animalName, animalWeight, animalLivingRegion);
             }
             input.nextLine();
             String foodType = input.next();
             int foodQuantity = input.nextInt();
             input.nextLine();
-            Class foodClass = Class.forName("io.codelex.polymorphism.practice.exercise6." + foodType);
-            Constructor foodConstructor = foodClass.getConstructor(Integer.class);
+            Class<?> foodClass = Class.forName("io.codelex.polymorphism.practice.exercise6." + foodType);
+            Constructor<?> foodConstructor = foodClass.getConstructor(Integer.class);
             Food enteredFood = (Food) foodConstructor.newInstance(foodQuantity);
             enteredAnimal.eat(enteredFood);
             enteredAnimal.makeSound();
-            System.out.println(enteredAnimal.toString());
+            System.out.println(enteredAnimal);
             myAnimalList.add(enteredAnimal);
 
         }
         String forPrint = myAnimalList.stream()
                 .map(Animal::toString)
-                .collect(Collectors.joining(", "))
-                .toString();
+                .collect(Collectors.joining(", "));
         System.out.println(forPrint);
 
     }

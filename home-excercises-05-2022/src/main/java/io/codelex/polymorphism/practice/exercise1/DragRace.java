@@ -31,8 +31,7 @@ public class DragRace {
         myCarList.add(new Tesla());
 
         for (int i = 1; i <= speedUpTimes; i++) {
-            myCarList.stream()
-                    .forEach(Car::speedUp);
+            myCarList.forEach(Car::speedUp);
             if (i % nitroTimes == 0) {
                 myCarList.stream()
                         .filter(s -> s instanceof NitrousOxideEngine)
@@ -44,6 +43,5 @@ public class DragRace {
                 .max(Comparator.comparing(s -> Integer.parseInt(s.showCurrentSpeed())))
                 .get();
         System.out.println("Fastest car was: " + fastestCar.getClass().getSimpleName() + " with speed " + fastestCar.showCurrentSpeed());
-
     }
 }
