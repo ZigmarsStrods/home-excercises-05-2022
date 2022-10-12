@@ -10,9 +10,18 @@ public class Exercise3App {
         vClassList.add(new Vclass());
         List<VsuperClass> vSuperList = new ArrayList<>();
         vSuperList.add(new VsuperClass());
+        List<Object> objectList = new ArrayList<>();
+        objectList.add(new Object());
 
         Exercise3.addAllX(vClassList, vSuperList);
-        //Exercise3.addAllY(vClassList, vSuperList); does not work with type superclasses
+        Exercise3.addAllX(vClassList, objectList);
+        Exercise3.addAllX(vSuperList, objectList);
+        /* Does not work with type superclasses
+
+        Exercise3.addAllY(vClassList, vSuperList);
+        Exercise3.addAllY(vClassList, objectList);
+        Exercise3.addAllY(vSuperList, objectList);
+        */
     }
 
 

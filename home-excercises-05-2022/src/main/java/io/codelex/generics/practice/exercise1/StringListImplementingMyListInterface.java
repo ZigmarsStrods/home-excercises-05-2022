@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringListImplementingMyListInterface implements MyListInterface {
 
-    private List<String> integerList = new ArrayList<>();
+    private final List<String> integerList = new ArrayList<>();
 
     @Override
     public void add(int i, Object number) {

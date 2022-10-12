@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/IntegerListImplementingMyListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/IntegerListImplementingMyListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/StringListImplementingMyListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/StringListImplementingMyListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise2/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise2/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Cage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Cage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +33,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main/java/io/codelex"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main/java/io/codelex&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\src\main\java\io\codelex" />

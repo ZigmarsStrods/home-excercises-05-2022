@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MyListClass {
 
-    private List<Object> objectList = new ArrayList<>();
+    private final List<Object> objectList = new ArrayList<>();
 
     public void add(int i, Object el) {
 

@@ -1,14 +1,14 @@
 package io.codelex.generics.practice.exercise4;
 
-class Cage <? extends Food>{
+class Cage <F extends Food>{
 
-    Animal<?> animal;
+    Animal<F> animal;
 
-        Cage(Animal<?> animal){
+        Cage(Animal<F> animal){
         this.animal=animal;
         }
 
-        Animal<?> getAnimal(){
+        Animal<F> getAnimal(){
         return animal;
         }
         }
