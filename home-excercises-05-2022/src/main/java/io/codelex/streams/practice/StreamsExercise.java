@@ -10,6 +10,8 @@ import java.util.stream.Stream;
  * TODO - search for StreamsExerciseTest and make all tests pass
  */
 public class StreamsExercise {
+
+    static final Random generator = new Random();
     public static List<Integer> returnSquareRoot(List<Integer> numbers) {
         return numbers.stream()
                 .map(num -> (int) Math.sqrt(num))
@@ -82,21 +84,21 @@ public class StreamsExercise {
         return users.stream()
                 .mapToInt(User::getAge)
                 .average()
-                .getAsDouble();
+                .orElse(0);
     }
 
     public static Integer getMaxAge(List<User> users) {
         return users.stream()
                 .mapToInt(User::getAge)
                 .max()
-                .getAsInt();
+                .orElse(0);
     }
 
     public static Integer getMinAge(List<User> users) {
         return users.stream()
                 .mapToInt(User::getAge)
                 .min()
-                .getAsInt();
+                .orElse(0);
     }
 
     public static Map<Boolean, List<User>> partionUsersByGender(List<User> users) {
@@ -156,16 +158,15 @@ public class StreamsExercise {
     }
 
     public static List<Integer> generate10RandomNumbers() {
-        return IntStream.generate(() -> (int) Math.random()).limit(10)
+        return IntStream.generate(() -> generator.nextInt(100)).limit(10)
                 .boxed()
                 .toList();
     }
 
     public static User findOldest(List<User> users) {
-        return users.stream().
-                sorted(Comparator.comparingInt(User::getAge).reversed())
-                .findFirst()
-                .get();
+        return users.stream()
+                .max(Comparator.comparingInt(User::getAge))
+                .orElse(null);
 
     }
 
