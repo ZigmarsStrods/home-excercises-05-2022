@@ -1,7 +1,7 @@
 package io.codelex.generics.practice.exercise4;
 
 class Zoo {
-    void feedAnimal(Cage<Food> cage) {
+    void feedAnimal(Cage cage) {
         feed(cage.getAnimal().lunchBag, cage.getAnimal());
     }
 
