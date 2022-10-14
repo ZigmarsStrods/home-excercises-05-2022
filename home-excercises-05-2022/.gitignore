@@ -1,4 +1,6 @@
 ### IntelliJ IDEA ###
+.idea/
+home-excercises-05-2022.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
