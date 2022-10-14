@@ -21,19 +21,18 @@ public class Histogram {
     public static void main(String[] args) throws IOException, URISyntaxException {
         final String scores = fileContent();
         List<Integer> scoresList = Arrays.stream(scores.split(" "))
-                .map(s -> Integer.parseInt(s))
-                .collect(Collectors.toList());
+                .map(Integer::parseInt).toList();
         for (int i = 0; i <= maxScore; i += 10) {
             int lowerLimit = i;
             int upperLimit = lowerLimit + 9;
-            Long scoreCount = scoresList.stream()
+            long scoreCount = scoresList.stream()
                     .filter(j -> j >= lowerLimit && j <= upperLimit)
                     .count();
             String output = String.format("%02d", lowerLimit);
             if (lowerLimit < maxScore) {
                 output += String.format("-%02d", upperLimit);
             }
-            System.out.println(output + ":" + star.repeat(scoreCount.intValue()));
+            System.out.println(output + ":" + star.repeat((int) scoreCount));
         }
 
 

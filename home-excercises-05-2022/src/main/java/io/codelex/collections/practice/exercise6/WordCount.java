@@ -18,13 +18,13 @@ public class WordCount {
         final Path path = Paths.get(WordCount.class.getResource(file).toURI());
         List<String> textAsList = Files.readAllLines(path, charset);
         System.out.println("Lines = " + textAsList.size());
-        int words = listStreamMapIntSum(textAsList, line -> line.toString().split("[\\s,!?]+").length);
+        int words = listStreamMapIntSum(textAsList, line -> line.split("[\\s,!?]+").length);
         System.out.println("Words = " + words);
-        int chars = listStreamMapIntSum(textAsList, line -> line.toString().length());
+        int chars = listStreamMapIntSum(textAsList, String::length);
         System.out.println("Chars = " + chars);
     }
 
-    private static int listStreamMapIntSum(List<String> list, ToIntFunction mapper) {
+    private static int listStreamMapIntSum(List<String> list, ToIntFunction<String> mapper) {
         return list.stream()
                 .mapToInt(mapper)
                 .sum();

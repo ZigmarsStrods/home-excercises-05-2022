@@ -79,6 +79,6 @@ public class FlightPlanner {
     private static void displayCities(Map<String, HashSet<String>> flightMap) {
         System.out.println("\nYou can fly from following cities:");
         flightMap.keySet()
-                .forEach(s -> System.out.println(s));
+                .forEach(System.out::println);
     }
 }
