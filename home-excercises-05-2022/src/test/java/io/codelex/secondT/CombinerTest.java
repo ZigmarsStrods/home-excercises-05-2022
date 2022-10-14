@@ -14,4 +14,15 @@ public class CombinerTest {
         Assertions.assertEquals("Text-10", result);
     }
 
+    @Test
+    void testException() {
+        //Given
+
+        //When
+        Exception error = Assertions.assertThrows(Exception.class, () -> {;});
+        //Then
+        Assertions.assertEquals("Cannot pass in values below zero!", error.getMessage());
+    }
+
+
 }
