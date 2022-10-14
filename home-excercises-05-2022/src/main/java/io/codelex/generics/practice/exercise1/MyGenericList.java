@@ -3,17 +3,17 @@ package io.codelex.generics.practice.exercise1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyGenericList<T> {
+public class MyGenericList<E> {
 
-    List<T> genericList = new ArrayList<>();
+    List<E> genericList = new ArrayList<>();
 
-    public void add(int i, T el) {
+    public void add(int i, E el) {
 
         genericList.add(i, el);
 
     }
 
-    public T get(int i) {
+    public E get(int i) {
         return genericList.get(i);
     }
 }

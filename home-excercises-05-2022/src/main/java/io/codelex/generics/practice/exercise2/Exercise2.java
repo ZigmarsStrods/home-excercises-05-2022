@@ -9,14 +9,15 @@ public class Exercise2 {
     public static String concatenate(List<?> list) {
         String result = "";
         String separator = "";
-        if (list.get(0) instanceof String) {
+        Object listObjects = list.get(0);
+        if (listObjects instanceof String) {
             result = "String: ";
             separator = " ";
-        } else if (list.get(0) instanceof Integer) {
+        } else if (listObjects instanceof Integer) {
             result = "Integers: ";
             separator = "+";
         } else {
-            result = list.get(0).getClass().getSimpleName() + ": ";
+            result = listObjects.getClass().getSimpleName() + ": ";
             separator = "&";
         }
         result = result + list.stream().map(Object::toString).collect(Collectors.joining(separator));

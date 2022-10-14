@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Exercise3 {
 
-    public <T> void add(T value, List<? super T> list) {
+    public <V> void add(V value, List<? super V> list) {
         list.add(value);
     }
 

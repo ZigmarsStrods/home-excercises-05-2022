@@ -1,6 +1,6 @@
 package io.codelex.generics.practice.exercise4;
 
-class Cage <F extends Food>{
+class Cage <F extends Food> {
 
     Animal<F> animal;
 

@@ -16,7 +16,7 @@ public class Exercise3App {
         Exercise3.addAllX(vClassList, vSuperList);
         Exercise3.addAllX(vClassList, objectList);
         Exercise3.addAllX(vSuperList, objectList);
-        /* Does not work with type superclasses
+        /*Does not work with type superclasses
 
         Exercise3.addAllY(vClassList, vSuperList);
         Exercise3.addAllY(vClassList, objectList);

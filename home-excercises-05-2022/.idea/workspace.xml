@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/IntegerListImplementingMyListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/IntegerListImplementingMyListInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/StringListImplementingMyListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/StringListImplementingMyListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyGenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise1/MyGenericList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise2/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise2/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise3/Exercise3App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Cage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Cage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/generics/practice/exercise4/Zoo.java" afterDir="false" />
