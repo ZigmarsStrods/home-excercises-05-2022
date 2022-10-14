@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/collections/practice/exercise6/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/collections/practice/exercise6/WordCount.java" afterDir="false" />
-    </list>
+    <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,16 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/home-excercises-05-2022/home-excercises-05-2022/src/main",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\src\main" />
