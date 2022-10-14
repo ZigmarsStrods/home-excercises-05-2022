@@ -21,7 +21,7 @@ public abstract class Card {
     }
 
 
-    public void withdraw(double moneyToTake) {
+    public void withdraw(Double moneyToTake) {
         if (balance.compareTo(new BigDecimal(moneyToTake)) < 0) {
             throw new NotEnoughFundsException("Not enough funds");
 
