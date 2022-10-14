@@ -34,7 +34,7 @@ public class StreamsExercise {
 
     public static List<User> getLimitedUserList(List<User> users, int limit) {
         return users.stream()
-                .filter(user -> users.indexOf(user) < limit)
+                .limit(limit)
                 .toList();
 
     }
