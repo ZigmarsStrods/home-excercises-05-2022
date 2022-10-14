@@ -35,7 +35,8 @@ public class HashMapExercise1 {
         Map<Integer, String> myNewMap = new HashMap<>(myMap);
 
         //TODO: Iterate over map entries and print keys and values of each entry
-        for (Map.Entry entry : myNewMap.entrySet()) {
+        for (Map.Entry<Integer, String> entry : myNewMap.entrySet()) {
+            
             System.out.println("The key " + entry.getKey() + " has value " + entry.getValue());
         }
 
