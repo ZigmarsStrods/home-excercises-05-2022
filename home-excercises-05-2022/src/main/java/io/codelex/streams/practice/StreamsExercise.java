@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 public class StreamsExercise {
 
     static final Random generator = new Random();
+
     public static List<Integer> returnSquareRoot(List<Integer> numbers) {
         return numbers.stream()
                 .map(num -> (int) Math.sqrt(num))
@@ -27,7 +28,8 @@ public class StreamsExercise {
     public static List<Integer> getDistinctAges(List<User> users) {
         return users.stream()
                 .map(User::getAge)
-                .distinct().toList();
+                .distinct()
+                .toList();
     }
 
     public static List<User> getLimitedUserList(List<User> users, int limit) {
@@ -38,9 +40,10 @@ public class StreamsExercise {
     }
 
     public static Integer countUsersOlderThen25(List<User> users) {
-        return (int) users.stream()
+        long usersOlder25 = users.stream()
                 .filter(user -> user.getAge() > 25)
                 .count();
+        return Math.toIntExact(usersOlder25);
     }
 
     public static List<String> mapToUpperCase(List<String> strings) {
@@ -117,16 +120,18 @@ public class StreamsExercise {
     }
 
     public static Map<Boolean, Long> countGender(List<User> users) {
-        return users.stream().collect(Collectors.partitioningBy(User::isMale, Collectors.counting()));
+        return users.stream()
+                .collect(Collectors.partitioningBy(User::isMale, Collectors.counting()));
     }
 
     public static boolean anyMatch(List<User> users, int age) {
-        return users.stream().anyMatch(user -> user.getAge() == age);
+        return users.stream()
+                .anyMatch(user -> user.getAge() == age);
     }
 
     public static boolean noneMatch(List<User> users, int age) {
-        return users.stream().
-                noneMatch(user -> user.getAge() == age);
+        return users.stream()
+                .noneMatch(user -> user.getAge() == age);
     }
 
     public static Optional<User> findAny(List<User> users, String name) {
@@ -154,11 +159,13 @@ public class StreamsExercise {
     }
 
     public static boolean isPrime(int number) {
-        return IntStream.rangeClosed(2, number / 2).noneMatch(i -> number % i == 0);
+        return IntStream.rangeClosed(2, number / 2)
+                .noneMatch(i -> number % i == 0);
     }
 
     public static List<Integer> generate10RandomNumbers() {
-        return IntStream.generate(() -> generator.nextInt(100)).limit(10)
+        return IntStream.generate(() -> generator.nextInt(100))
+                .limit(10)
                 .boxed()
                 .toList();
     }
@@ -177,7 +184,8 @@ public class StreamsExercise {
     }
 
     public static IntSummaryStatistics ageSummaryStatistics(List<User> users) {
-        return users.stream().mapToInt(User::getAge).summaryStatistics();
+        return users.stream()
+                .mapToInt(User::getAge).summaryStatistics();
 
     }
 
