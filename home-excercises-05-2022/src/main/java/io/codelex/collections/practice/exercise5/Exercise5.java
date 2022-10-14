@@ -11,7 +11,8 @@ public class Exercise5 {
         int numToCheck = number;
         while (true) {
             int sum = Arrays.stream(Integer.toString(numToCheck).split(""))
-                    .mapToInt(digit -> Integer.parseInt(digit) * Integer.parseInt(digit))
+                    .mapToInt(Integer::parseInt)
+                    .map(d -> d * d)
                     .sum();
             if (sum == 1) {
                 System.out.println(number + " is happy! :)");
