@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Basket<E> {
-
-    private int count = 0;
     List<E> contents;
 
     public Basket() {
@@ -13,32 +11,24 @@ public class Basket<E> {
     }
 
     public void addToBasket(E element) {
-        if (count == 10) {
+        if (contents.size() == 10) {
             throw new BasketFullException("Basket is full :(");
-        } else {
-            contents.add(element);
-            count++;
         }
+        contents.add(element);
     }
 
     public void removeFromBasket() {
-        if (count == 0) {
+        if (contents.size() == 0) {
             throw new BasketEmptyException("Basket is empty :(");
-        } else {
-            contents.remove(contents.size() - 1);
-            count--;
         }
-    }
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
+        contents.remove(contents.size() - 1);
     }
 
     public List<E> getContents() {
         return contents;
+    }
+
+    public int getCount() {
+        return contents.size();
     }
 }

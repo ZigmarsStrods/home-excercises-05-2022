@@ -9,7 +9,7 @@ public class CreditCard extends Card {
     }
 
 
-    public void withdraw(Double moneyToTake) {
+    public void withdraw(double moneyToTake) {
         super.withdraw(moneyToTake);
         if (getBalance().compareTo(new BigDecimal("100")) < 0) {
             System.out.println("Warning: Low funds");

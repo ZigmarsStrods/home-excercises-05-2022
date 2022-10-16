@@ -37,9 +37,10 @@ public class BasketTest {
     void testFullBasketException() {
 
         Basket<Mushroom> myBasket = new Basket<>();
-        Mushroom myMushroom = new Mushroom();
-        myBasket.setCount(10);
-        BasketFullException error = Assertions.assertThrows(BasketFullException.class, () -> myBasket.addToBasket(myMushroom));
+        for (int i = 0; i < 10; i++) {
+            myBasket.addToBasket(new Mushroom());
+        }
+        BasketFullException error = Assertions.assertThrows(BasketFullException.class, () -> myBasket.addToBasket(new Mushroom()));
         Assertions.assertEquals("Basket is full :(", error.getMessage());
     }
 
