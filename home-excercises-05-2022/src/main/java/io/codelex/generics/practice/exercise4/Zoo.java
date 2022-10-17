@@ -11,9 +11,10 @@ class Zoo {
 
     void manage() {
         Sheep mySheep = new Sheep();
-        //Cage<Food> myCage = new Cage<>(mySheep);
-        //feedAnimal(myCage);
+        Cage<Food> myCage = new Cage<>(mySheep);
+        feedAnimal(myCage);
         Wolf myWolf = new Wolf();
+        //mySheep.eat(myWolf);
 
 
     }
