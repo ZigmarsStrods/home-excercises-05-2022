@@ -1,4 +1,4 @@
-package io.codelex.loops.examples;
+package io.codelex.oop.exercise09.loops.examples;
 
 public class ContinueExample {
     public static void main(String[] args) {

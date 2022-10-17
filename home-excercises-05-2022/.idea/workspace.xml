@@ -6,7 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/dateandtime/practice/exercise3/DatePeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/dateandtime/practice/exercise3/DatePeriod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/BreakExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/BreakExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/ContinueExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/ContinueExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/DoWhileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/DoWhileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/DoWhileQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/DoWhileQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/ForEachExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/ForEachExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/ForExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/ForExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/ReturnQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/ReturnQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/WhileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/WhileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/examples/WhileQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/examples/WhileQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/AsciiFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/AsciiFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/BookIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/BookIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/MultiplyByItself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/MultiplyByItself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/NaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/NaturalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/NumberSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/NumberSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/Piglet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/Piglet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/RandomNumberPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/RandomNumberPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/RollTwoDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/RollTwoDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/loops/practice/Vowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/exercise09/loops/practice/Vowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise1/LazyBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise1/LazyBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise1/LazyBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise1/MainProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -28,16 +49,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2GGE9ICxkjHCXFSzLm7xY5x3aUd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.codelex.oop.exercise09" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="" />
+      <created>1666006381278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666006381278</updated>
+      <workItem from="1666006389027" duration="11240000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -49,5 +96,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/home_excercises_05_2022$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1664886164946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

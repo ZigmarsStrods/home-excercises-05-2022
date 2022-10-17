@@ -1,4 +1,4 @@
-package io.codelex.loops.practice;
+package io.codelex.oop.exercise09.loops.practice;
 
 public class Vowels {
 
