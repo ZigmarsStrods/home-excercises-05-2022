@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/CardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise1/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise2/Mushroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise4/FileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise4/FileTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/secondT/exercise4/file first my.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/codelex/secondT/exercise2/BasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/codelex/secondT/exercise2/BasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/codelex/secondT/exercise3/JoinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/codelex/secondT/exercise3/JoinerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
