@@ -1,3 +1,11 @@
+### IntelliJ IDEA ###
+.idea/
+.idea/workspace.xml
+home-excercises-05-2022.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
 # Compiled class file
 *.class
 

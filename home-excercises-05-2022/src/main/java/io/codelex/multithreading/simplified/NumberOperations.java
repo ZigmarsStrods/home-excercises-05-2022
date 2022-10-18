@@ -44,14 +44,13 @@ public class NumberOperations {
 
     public static void sum(List<Integer> intList) {
         int result = intList.stream()
-                .mapToInt(Integer::valueOf)
-                .sum();
+                .reduce(0, Integer::sum);
         System.out.println(result);
     }
 
     public static void average(List<Integer> intList) {
         double result = intList.stream()
-                .mapToInt(Integer::valueOf)
+                .mapToDouble(Double::valueOf)
                 .average()
                 .orElse(0);
         System.out.println(result);
@@ -60,8 +59,7 @@ public class NumberOperations {
     public static void sumEven(List<Integer> intList) {
         int result = intList.stream()
                 .filter(i -> intList.indexOf(i) % 2 != 0)
-                .mapToInt(Integer::valueOf)
-                .sum();
+                .reduce(0, Integer::sum);
         System.out.println(result);
     }
 
