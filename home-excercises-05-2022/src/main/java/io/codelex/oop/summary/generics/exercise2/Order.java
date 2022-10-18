@@ -1,25 +1,30 @@
 package io.codelex.oop.summary.generics.exercise2;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
 
-    private List<Item> itemList;
+    private List<SellableThing> sellableList;
 
     public Order() {
-        itemList = new ArrayList<>();
+        sellableList = new ArrayList<>();
     }
 
-    public void addItem(Item itemToAdd) {
-        itemList.add(itemToAdd);
+    public void addItem(SellableThing thingToAdd) {
+        LocalDate now = LocalDate.now();
+        if (thingToAdd instanceof FoodItem && ((FoodItem) thingToAdd).getDateOfExpiration().isBefore(now)) {
+            throw new BadFoodException("Can not add the food that has expired to the order");
+        }
+        sellableList.add(thingToAdd);
     }
 
     public String returnList() {
-        return itemList.toString();
+        return sellableList.toString();
     }
 
-    public List<Item> getItemList() {
-        return itemList;
+    public List<SellableThing> getSellableList() {
+        return sellableList;
     }
 }

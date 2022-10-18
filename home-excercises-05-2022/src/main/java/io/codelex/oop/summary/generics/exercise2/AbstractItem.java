@@ -1,6 +1,7 @@
 package io.codelex.oop.summary.generics.exercise2;
 
 import java.math.BigDecimal;
+import java.util.Locale;
 
 public abstract class AbstractItem implements Item {
 
@@ -25,6 +26,6 @@ public abstract class AbstractItem implements Item {
 
     @Override
     public String fullInfo() {
-        return name + ", " + price + " EUR,";
+        return String.format(Locale.ROOT, name + ", %.2f EUR,", price);
     }
 }
