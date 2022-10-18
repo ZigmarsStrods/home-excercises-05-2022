@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/Combiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/Combiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/StorageHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/StorageHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/StorageHouseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/StorageHouseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/AbstractItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/AbstractItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/FoodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/OrderProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/oop/summary/generics/exercise2/OrderProgram.java" afterDir="false" />
-    </list>
+    <list default="true" id="c07f2f26-9247-452b-841e-47f262832e20" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
