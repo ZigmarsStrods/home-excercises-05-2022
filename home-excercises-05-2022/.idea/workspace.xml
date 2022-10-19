@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2691e193-dfea-4bbf-9987-bff5f5c0b7ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/exercise1/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/arrays/practice/exercise1/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinksApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise06/EnergyDrinksApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/codelex/classesandobjects/practice/exercise11/VideoStoreTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="f975a0c4-4494-4f56-b283-30b70c94067c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,40 +26,41 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2EP5mFTWifICe4QJyvqku5NlrID" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
+  <component name="ProjectId" id="2GLoqxYK0H7bUg4LdKQjBah00RY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/From_codelex_github/Tieto",
+    "last_opened_file_path": "C:/Users/zigma/IdeaProjects/home-excercises-05-2022",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\src\main\java\io\codelex" />
-      <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\src\io\codelex" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\home-excercises-05-2022\out\production" />
+      <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022" />
+      <recent name="C:\Users\zigma\IdeaProjects\home-excercises-05-2022\.idea" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="RandomNumberPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.codelex.loops.practice.RandomNumberPositions" />
-      <module name="home-excercises-05-2022" />
+    <configuration name="CozaLozaWoza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.codelex.arithmetic.practice.CozaLozaWoza" />
+      <module name="main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.codelex.loops.practice.*" />
+          <option name="PATTERN" value="io.codelex.arithmetic.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,23 +70,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomNumberPositions" />
+        <item itemvalue="Application.CozaLozaWoza" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2691e193-dfea-4bbf-9987-bff5f5c0b7ac" name="Changes" comment="" />
-      <created>1662484537501</created>
+      <changelist id="f975a0c4-4494-4f56-b283-30b70c94067c" name="Changes" comment="" />
+      <created>1666177420561</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1662484537501</updated>
-      <workItem from="1663592254495" duration="7874000" />
-      <workItem from="1663653989314" duration="53307000" />
-      <workItem from="1663708839384" duration="2058000" />
-      <workItem from="1663749630499" duration="3455000" />
-      <workItem from="1663774177402" duration="15092000" />
+      <updated>1666177420561</updated>
+      <workItem from="1666177424067" duration="5751000" />
     </task>
     <servers />
   </component>
@@ -114,14 +100,5 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.InputMismatchException" package="java.util" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>
+
