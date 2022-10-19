@@ -1,5 +1,5 @@
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 .idea/workspace.xml
 home-excercises-05-2022.iml
 out/
