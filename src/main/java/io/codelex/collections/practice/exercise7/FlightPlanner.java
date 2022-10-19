@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 public class FlightPlanner {
     private static final Charset charset = Charset.defaultCharset();
-    private static final String file = "/collections/flights.txt";
+    private static final String file = "flights.txt";
 
     final static Scanner keyboard = new Scanner(System.in);
 

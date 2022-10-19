@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class Histogram {
     private static final Charset charset = Charset.defaultCharset();
-    private static final String file = "/collections/midtermscores.txt";
+    private static final String file = "/resources/collections/midtermscores.txt";
 
     private static final String star = "*";
 
