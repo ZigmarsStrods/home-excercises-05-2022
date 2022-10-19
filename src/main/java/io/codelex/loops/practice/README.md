@@ -11,7 +11,7 @@ See [MultiplyByItself.java](MultiplyByItself.java)
 ## Exercise #3
 
 Write a program that asks which number position out of 20 random numbers you want to know.
-SSee [RandomNumberPositions.java](RandomNumberPositions.java)
+See [RandomNumberPositions.java](RandomNumberPositions.java)
 
 ## Exercise #4
 
