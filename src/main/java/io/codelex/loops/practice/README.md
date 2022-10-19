@@ -2,20 +2,20 @@
 
 ## Exercise #1
 
-See [NaturalNumbers.java](./NaturalNumbers.java)
+See [NaturalNumbers.java](NaturalNumbers.java)
 
 ## Exercise #2
 
-See [MultiplyByItself.java](./MultiplyByItself.java)
+See [MultiplyByItself.java](MultiplyByItself.java)
 
 ## Exercise #3
 
 Write a program that asks which number position out of 20 random numbers you want to know.
-See [RandomNumberPositions.java](./RandomNumberPositions.java)
+See [RandomNumberPositions.java](RandomNumberPositions.java)
 
 ## Exercise #4
 
-See [Vowels.java](./Vowels.java)
+See [Vowels.java](Vowels.java)
 
 ## Exercise #5
 

@@ -2,7 +2,7 @@
 
 ## Exercise #1
 
-See [VariablesAndNames.java](./VariablesAndNames.java)
+See [VariablesAndNames.java](VariablesAndNames.java)
 
 - Clean up the code
   - It is a rule to use [camelcase](https://en.wikipedia.org/wiki/Camel_case) when naming variables
@@ -13,7 +13,7 @@ See [VariablesAndNames.java](./VariablesAndNames.java)
 
 ## Exercise #2
 
-See [MoreVariablesAndPrinting.java](./MoreVariablesAndPrinting.java)
+See [MoreVariablesAndPrinting.java](MoreVariablesAndPrinting.java)
 
 - Clean up the code
 - Change all the variables so there isn't the *my* in front.
@@ -24,7 +24,7 @@ See [MoreVariablesAndPrinting.java](./MoreVariablesAndPrinting.java)
 
 ## Exercise #3
 
-See [Casting.java](./Casting.java)
+See [Casting.java](Casting.java)
 
 ## Exercise #4
 
@@ -87,4 +87,4 @@ Your speed in miles/h is 0.26158801
 
 ## Exercise #10
 
-See [SadFor.java](./SadFor.java)
+See [SadFor.java](SadFor.java)
