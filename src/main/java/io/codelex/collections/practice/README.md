@@ -6,7 +6,7 @@ See [Exercise1.java](./Exercise1.java)
 
 ## Exercise #2
 
-Train your skills on List, complete all exercises in [lists](./exercise2) package
+Train your skills on List, complete all exercises in [lists](exercise2) package
 
 ## Exercise #3
 
