@@ -112,7 +112,7 @@ Then add few instances of each type in the list and make sounds while iterating 
 
 Write Java code to implement the following inheritance hierarchy:
 
-![persons](./exercise3/persons.png)
+![persons](exercise3/persons.png)
 
 The two sub classes Student and Employee should override display() method.
  
@@ -180,7 +180,7 @@ of copies and cost per copy. Add it in the AdApp.
 Your task is to create a class hierarchy like the picture below. All the classes except Vegetable, Meat, Mouse,
 Tiger, Cat & Zebra should be abstract.
 
-![hierarchy](./exercise6/hierarchy.png)
+![hierarchy](exercise6/hierarchy.png)
 
 Input should be read from the console. Every even line will contain information about the Animal in following format:
 
