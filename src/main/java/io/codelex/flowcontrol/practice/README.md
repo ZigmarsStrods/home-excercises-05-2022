@@ -2,15 +2,15 @@
 
 ## Exercise #1
 
-See [LargestNumber.java](./LargestNumber.java)
+See [LargestNumber.java](LargestNumber.java)
 
 ## Exercise #2
 
-See [PositiveNegativeNumber.java](./PositiveNegativeNumber.java)
+See [PositiveNegativeNumber.java](PositiveNegativeNumber.java)
 
 ## Exercise #3
 
-See [TenBillion.java](./TenBillion.java)
+See [TenBillion.java](TenBillion.java)
 
 ## Exercise #4
 

@@ -10,7 +10,7 @@ Write a program called CheckOddEven which prints "Odd Number" if the int variabl
 
 # Exercise #3 
 
-See [SumAverageRunningInt.java](./SumAverageRunningInt.java)
+See [SumAverageRunningInt.java](SumAverageRunningInt.java)
 
 Write a program called SumAverageRunningInt to produce the sum of 1, 2, 3, ..., to 100. Store 1 and 100 in variables lowerbound and upperbound, so that we can change their values easily. Also compute and display the average. The output shall look like:
 
@@ -60,7 +60,7 @@ Coza 13 Woza CozaLoza 16 17 Coza 19 Loza CozaWoza 22
 
 # Exercise #7
 
-See [GravityCalculator.java](./GravityCalculator.java)
+See [GravityCalculator.java](GravityCalculator.java)
 
 Modify the example program to compute the position of an object after falling for 10 seconds, outputting the position in
 meters. The formula in Math notation is:
@@ -101,7 +101,7 @@ Your program must accept metric units.
 
 # Exercise #10
 
-See [CalculateArea.java](./CalculateArea.java)
+See [CalculateArea.java](CalculateArea.java)
 
 Design a Geometry class with the following methods:
 
