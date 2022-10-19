@@ -1,12 +1,12 @@
 # Practice
 
 ## Exercise #1
+
 See [NaturalNumbers.java](NaturalNumbers.java)
 
 ## Exercise #2
 
 See [MultiplyByItself.java](MultiplyByItself.java)
-
 
 ## Exercise #3
 

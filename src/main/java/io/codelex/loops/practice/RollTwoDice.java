@@ -12,6 +12,7 @@ public class RollTwoDice {
         System.out.print("Please enter Your desired sum: ");
         Scanner input = new Scanner(System.in);
         int desired = input.nextInt();
+
         int firstNum;
         int secNum;
         int sum;

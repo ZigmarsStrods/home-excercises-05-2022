@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BookIndex {
 
     private static final int lineLength = 30;
+
     public static void main(String[] args) {
         System.out.println("Please enter the paragraph name: ");
         Scanner input = new Scanner(System.in);
