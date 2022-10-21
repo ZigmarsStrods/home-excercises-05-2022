@@ -10,8 +10,8 @@ public class Piglet {
         Scanner input = new Scanner(System.in);
         int diceRoll;
         int sum = 0;
-        String rollAgain = "y";
-        while (rollAgain.equalsIgnoreCase("y") || rollAgain.equalsIgnoreCase("yes")) {
+        boolean rollAgain = true;
+        while (rollAgain) {
             diceRoll = diceGen.nextInt(6) + 1;
             System.out.println("You have rolled a " + diceRoll + "!");
             if (diceRoll == 1) {
@@ -20,8 +20,12 @@ public class Piglet {
             }
             sum += diceRoll;
             System.out.print("Roll again?");
-            rollAgain = input.next();
+            rollAgain = isPositiveAnswer(input.next());
         }
-        System.out.println("You got "+sum+" points");
+        System.out.println("You got " + sum + " points");
+    }
+
+    private static boolean isPositiveAnswer(String answer) {
+        return answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("yes");
     }
 }
