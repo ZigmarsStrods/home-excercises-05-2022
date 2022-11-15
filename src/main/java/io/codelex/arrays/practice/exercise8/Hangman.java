@@ -6,22 +6,23 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Hangman {
+
+    private static final List<String> words = List.of("abruptly", "foxglove", "lengths", "subway", "embezzle", "jukebox", "schnapps", "yoked");
+
     public static void main(String[] args) {
         String playOrQuit = "";
         do {
-            String misses = "";
+            StringBuilder misses = new StringBuilder();
             String guess = "";
-            boolean isGameOngoing = true;
             boolean isWordGuessed = false;
             int unsuccessTriesLeft = 7;
             Scanner input = new Scanner(System.in);
-            List<String> words = List.of("abruptly", "foxglove", "lengths", "subway", "embezzle", "jukebox", "schnapps", "yoked");
             Random gen = new Random();
             int selectedWordNum = gen.nextInt(words.size());
             String[] wordtoGuess = words.get(selectedWordNum).split("");
             String[] displayedWord = new String[wordtoGuess.length];
             Arrays.fill(displayedWord, "_");
-            while (isGameOngoing) {
+            while (true) {
                 System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 showStatus(displayedWord);
                 System.out.println("Misses: " + misses);
@@ -45,8 +46,8 @@ public class Hangman {
                         isWordGuessed = false;
                     }
                 }
-                if (isCharNotGuessed && !misses.contains(guess)) {
-                    misses += guess;
+                if (isCharNotGuessed && !misses.toString().contains(guess)) {
+                    misses.append(guess);
                     unsuccessTriesLeft--;
                 }
             }
@@ -57,10 +58,10 @@ public class Hangman {
 
     }
 
-    public static void showStatus(String[] word) {
+    private static void showStatus(String[] word) {
         System.out.print("Word: \t");
-        for (int i = 0; i < word.length; i++) {
-            System.out.print(word[i] + " ");
+        for (String s : word) {
+            System.out.print(s + " ");
         }
         System.out.println();
     }

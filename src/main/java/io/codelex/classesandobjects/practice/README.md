@@ -272,7 +272,7 @@ There are some special cases you should handle. If the balance is negative, put 
 
 ## Exercise #11
 
-See [VideoStoreTest.java](./exercise11/VideoStoreTest.java)
+See [VideoStoreTest.java](exercise11/VideoStoreTest.java)
 
 The goal of this optional exercise is to design and implement a simple inventory control system for a small video rental store. Define least two classes: a class Video to model a video and a class VideoStore to model the actual store.
 

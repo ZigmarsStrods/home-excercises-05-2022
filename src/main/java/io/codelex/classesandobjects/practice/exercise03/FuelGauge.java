@@ -2,7 +2,7 @@ package io.codelex.classesandobjects.practice.exercise03;
 
 public class FuelGauge {
 
-    public final int MAX_FUEL_AMOUNT = 70;
+    public static final int MAX_FUEL_AMOUNT = 70;
     private int fuelAmount = 0;
 
     public int getFuelAmount() {
