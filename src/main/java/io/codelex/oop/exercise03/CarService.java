@@ -1,13 +1,14 @@
 package io.codelex.oop.exercise03;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
 
 public class CarService {
 
-    private List<Car> carlist;
+    private final List<Car> carlist;
 
     public CarService() {
         carlist = new LinkedList<>();
@@ -26,30 +27,30 @@ public class CarService {
     }
 
     public void serviceCarList() {
-        carlist.forEach(car -> System.out.println(car));
+        carlist.forEach(System.out::println);
     }
 
-    public void V12CarList() {
-        List<Car> V12list = carlist.stream()
-                .filter(car -> car.getEngineType() == Engine.V12)
+    public void getCarsByEngineType(Engine engineType) {
+        List<Car> carListByEngineType = carlist.stream()
+                .filter(car -> car.getEngineType() == engineType)
                 .toList();
-        printoutCarList(V12list);
+        printoutCarList(carListByEngineType);
     }
 
-    public void carsBefore1999() {
-        List<Car> prior1999cars = carlist.stream()
-                .filter(car -> car.getYearOfManufacture() < 1999)
+    public void getCarsBeforeGivenYear(int year) {
+        List<Car> carListBeforeYear = carlist.stream()
+                .filter(car -> car.getYearOfManufacture() < year)
                 .toList();
-        printoutCarList(prior1999cars);
+        printoutCarList(carListBeforeYear);
     }
 
     public String getMostExpensive() {
-        return Collections.max(carlist, (Car a, Car b) -> a.getPrice().compareTo(b.getPrice())).toString();
+        return Collections.max(carlist, Comparator.comparing(Car::getPrice)).toString();
 
     }
 
     public String getCheapest() {
-        return Collections.min(carlist, (Car a, Car b) -> a.getPrice().compareTo(b.getPrice())).toString();
+        return Collections.min(carlist, Comparator.comparing(Car::getPrice)).toString();
     }
 
     public void getWith3Manufacturers() {
@@ -61,9 +62,9 @@ public class CarService {
 
     public void getSortedByName(SortingOrder order) {
         if (order == SortingOrder.ASCENDING) {
-            Collections.sort(carlist, (Car a, Car b) -> a.getName().compareTo(b.getName()));
+            carlist.sort(Comparator.comparing(Car::getName));
         } else if (order == SortingOrder.DESCENDING) {
-            Collections.sort(carlist, (Car a, Car b) -> b.getName().compareTo(a.getName()));
+            carlist.sort((Car a, Car b) -> b.getName().compareTo(a.getName()));
         }
         serviceCarList();
     }
@@ -138,6 +139,6 @@ public class CarService {
     }
 
     private static void printoutCarList(List<Car> subCarList) {
-        subCarList.forEach(car -> System.out.println(car));
+        subCarList.forEach(System.out::println);
     }
 }

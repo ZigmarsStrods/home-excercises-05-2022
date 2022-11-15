@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Exercise1 {
 
-    public static final int workingHoursPerDay = 8;
+    public static final int WORKING_HOURS_PER_DAY = 8;
 
     public static void main(String[] args) {
 
@@ -30,7 +30,7 @@ public class Exercise1 {
                 workingDays -= 2;
             }
         }
-        long workingHours = workingDays * workingHoursPerDay;
+        long workingHours = workingDays * WORKING_HOURS_PER_DAY;
         System.out.println("From " + firstDate.format(formatter) + "(inclusive) till " + secondDate.format(formatter) + "(exclusive) there are " + workingHours + " working hours.");
     }
 }

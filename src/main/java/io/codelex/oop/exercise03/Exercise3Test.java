@@ -21,9 +21,6 @@ public class Exercise3Test {
         ladaOka.addManufacturer(azlk);
         ladaOka.addManufacturer(ford);
         Car mustang = new Car("Mustang", "Mark 1", 10, 1964, Engine.V12);
-        //mustang.addManufacturer(autovaz);
-        //mustang.addManufacturer(azlk);
-        //mustang.addManufacturer(ford);
         mustang.addManufacturer(mercis);
 
         System.out.println(ladaNiva + "\t" + ladaOka);
@@ -36,9 +33,9 @@ public class Exercise3Test {
         System.out.println("Service Car List: ");
         myCarServiceList.serviceCarList();
         System.out.println("V12 Car List: ");
-        myCarServiceList.V12CarList();
+        myCarServiceList.getCarsByEngineType(Engine.V12);
         System.out.println("Cars before 1999: ");
-        myCarServiceList.carsBefore1999();
+        myCarServiceList.getCarsBeforeGivenYear(1999);
         System.out.println("Most expensive car: ");
         System.out.println(myCarServiceList.getMostExpensive());
         System.out.println("Most affordable car: ");
