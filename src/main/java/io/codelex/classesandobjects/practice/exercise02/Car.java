@@ -1,4 +1,5 @@
 package io.codelex.classesandobjects.practice.exercise02;
+
 public class Car {
 
     private final double GAS_HOG_CONSUMPTION_THRESHOLD = 15;
@@ -10,7 +11,6 @@ public class Car {
     public Car(double startKilometers) {
         this.startKilometers = startKilometers;
         endKilometers = startKilometers;
-
     }
 
     public double calculateConsumption() {
